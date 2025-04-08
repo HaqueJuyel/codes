@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+openai
+langchain
+chromadb
+pdfminer.six
+streamlit
+requests
+PyMuPDF==1.23.6
+httpx
+
