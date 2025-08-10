@@ -1,0 +1,9 @@
+services:
+  sftp:
+    image: atmoz/sftp
+    container_name: dummy_sftp
+    ports:
+      - "2222:22"
+    volumes:
+      - ./sftp_upload:/home/testuser/upload:rw
+    command: testuser:testpass:::upload
